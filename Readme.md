@@ -16,18 +16,21 @@
 * 通过 matplotlib 进行健全性检查	创建了 matplotlib 图表，并显示图像和相关的前 5 个可能类别及其实际花卉名称
 
 ## 第 2 部分 - 命令行应用 
-[train.py] 
+
+### 使用前请先参阅 [README.ipynb]
+
+[train.py]
+* 训练网络：成功地用图像数据集训练一个新的网络
+* 训练验证日志：在训练网络时输出训练损失、验证损失和验证准确率
+* 模型架构：训练脚本使用户能够从 torchvision.models 中选择至少两个不同的可用架构
+* 模型超参数：训练脚本使用户能够设置学习速率、隐藏单元数和训练周期超参数
+* 在 GPU 上进行训练：训练脚本使用户能够选择在 GPU 上训练模型
+
 [predict.py]
-### 使用前请先参阅[README.ipynb]
-* 训练网络	train.py 成功地用图像数据集训练一个新的网络
-* 训练验证日志	在训练网络时输出训练损失、验证损失和验证准确率
-* 模型架构	训练脚本使用户能够从 torchvision.models 中选择至少两个不同的可用架构
-* 模型超参数	训练脚本使用户能够设置学习速率、隐藏单元数和训练周期超参数
-* 在 GPU 上进行训练	训练脚本使用户能够选择在 GPU 上训练模型
-* 预测类别	predict.py 脚本成功地读取了图像和检查点，然后输出最可能的图像类别及其概率
-* 前 K 个类别	predict.py 脚本使用户能够输出前 K 个类别及其相关的概率
-* 显示类别名称	predict.py 脚本使用户能够加载将类别值映射到其他类别名称的 JSON 文件
-* 在 GPU 上进行预测	predict.py 脚本使用户能够使用 GPU 计算预测值
+* 预测类别：成功地读取了图像和检查点，然后输出最可能的图像类别及其概率
+* 前 K 个类别：使用户能够输出前 K 个类别及其相关的概率
+* 显示类别名称：使用户能够加载将类别值映射到其他类别名称的 JSON 文件
+* 在 GPU 上进行预测：使用户能够使用 GPU 计算预测值
 
 
 [Image Classifier Project-zh_v7.ipynb]:https://github.com/Zhengqi-Li/Create_Your_Own_Image_Classifier/blob/master/Image%20Classifier%20Project-zh_v7.ipynb
