@@ -32,8 +32,13 @@
 * 显示类别名称：使用户能够加载将类别值映射到其他类别名称的 JSON 文件
 * 在 GPU 上进行预测：使用户能够使用 GPU 计算预测值
 
+## 项目总结
+
+[P4 Tips.ipynb]
+
 
 [Image Classifier Project-zh_v7.ipynb]:https://github.com/Zhengqi-Li/Create_Your_Own_Image_Classifier/blob/master/Image%20Classifier%20Project-zh_v7.ipynb
 [train.py]:https://github.com/Zhengqi-Li/Create_Your_Own_Image_Classifier/blob/master/train.py
 [predict.py]:https://github.com/Zhengqi-Li/Create_Your_Own_Image_Classifier/blob/master/predict.py
 [README.ipynb]:https://github.com/Zhengqi-Li/Create_Your_Own_Image_Classifier/blob/master/README.ipynb
+[P4 Tips.ipynb]:https://github.com/Zhengqi-Li/Create_Your_Own_Image_Classifier/blob/master/P4%20Tips.ipynb
