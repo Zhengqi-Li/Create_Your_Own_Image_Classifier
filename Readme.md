@@ -1,4 +1,4 @@
-## 第 1 部分 - 开发 Notebook[Image Classifier Project-zh_v7.ipynb]
+## 第 1 部分 - 开发 Notebook [Image Classifier Project-zh_v7.ipynb]
 * 导入软件包	在 notebook 的第一个单元格中导入所有必要的软件包和模块
 * 改善训练数据	使用 torchvision 变换以通过随机缩放、旋转、镜像和/或裁剪改善训练数据
 * 数据标准化	恰当地裁剪和标准化训练、验证和测试数据
@@ -15,7 +15,10 @@
 * 类别预测	predict 函数成功地获取图像路径和检查点，然后返回该图像的前 K 个可能的类别
 * 通过 matplotlib 进行健全性检查	创建了 matplotlib 图表，并显示图像和相关的前 5 个可能类别及其实际花卉名称
 
-## 第 2 部分 - 命令行应用 [train.py] [predict.py]
+## 第 2 部分 - 命令行应用 
+[train.py] 
+[predict.py]
+### 使用前请先参阅[README.ipynb]
 * 训练网络	train.py 成功地用图像数据集训练一个新的网络
 * 训练验证日志	在训练网络时输出训练损失、验证损失和验证准确率
 * 模型架构	训练脚本使用户能够从 torchvision.models 中选择至少两个不同的可用架构
@@ -30,3 +33,4 @@
 [Image Classifier Project-zh_v7.ipynb]:https://github.com/Zhengqi-Li/Create_Your_Own_Image_Classifier/blob/master/Image%20Classifier%20Project-zh_v7.ipynb
 [train.py]:https://github.com/Zhengqi-Li/Create_Your_Own_Image_Classifier/blob/master/train.py
 [predict.py]:https://github.com/Zhengqi-Li/Create_Your_Own_Image_Classifier/blob/master/predict.py
+[README.ipynb]:https://github.com/Zhengqi-Li/Create_Your_Own_Image_Classifier/blob/master/README.ipynb
